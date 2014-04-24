@@ -19,8 +19,6 @@ One the plugin has been installed, it may be enabled inside your Gruntfile with 
 grunt.loadNpmTasks('grunt-svginject');
 ```
 
-## The "template_inline" task
-
 ### Overview
 In your project's Gruntfile, add a section named `svginject` to the data object passed into `grunt.initConfig()`.
 
