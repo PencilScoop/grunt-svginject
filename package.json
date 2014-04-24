@@ -1,9 +1,9 @@
 {
   "name": "grunt-svginject",
   "version": "0.0.1",
-  "description": "https://github.com/PencilScoop/grunt-SVGinject",
-  "homepage": "https://github.com/PencilScoop/grunt-SVGinject",
-  "repository": "https://github.com/PencilScoop/grunt-SVGinject",
+  "description": "https://github.com/PencilScoop/grunt-svginject",
+  "homepage": "https://github.com/PencilScoop/grunt-svginject",
+  "repository": "https://github.com/PencilScoop/grunt-svginject",
   "author": {
     "name": "Joe Howard",
     "email": "joseph.howard@pencilscoop.com",
