@@ -1,0 +1,37 @@
+{
+  "name": "grunt-svginject",
+  "version": "0.0.1",
+  "description": "https://github.com/PencilScoop/grunt-SVGinject",
+  "homepage": "https://github.com/PencilScoop/grunt-SVGinject",
+  "repository": "https://github.com/PencilScoop/grunt-SVGinject",
+  "author": {
+    "name": "Joe Howard",
+    "email": "joseph.howard@pencilscoop.com",
+    "url": "http://www.pencilscoop.com/"
+  },
+  "keywords": [
+    "gruntplugin",
+    "SVG",
+    "inject"
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-nodeunit": "~0.3.0",
+    "grunt": "~0.4.4",
+    "jshint-stylish": "~0.1.5",
+    "load-grunt-tasks": "~0.3.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
