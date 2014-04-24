@@ -1,6 +1,6 @@
 /*
  * grunt-svginject
- * https://github.com/PencilScoop/grunt-SVGinject
+ * https://github.com/PencilScoop/grunt-svginject
  *
  * Copyright (c) 2014 Joe Howard
  * Licensed under the MIT license.
