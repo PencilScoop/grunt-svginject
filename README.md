@@ -128,4 +128,8 @@ The class names are named by the file-name with the prefix <code>svg-</code>. So
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
-_(Nothing yet)_
+### v0.0.2 - Minor Improvements
+
+- Added function to auto-minify of SVG files.
+- Added function to auto-replace quote marks of SVG files.
+- Inject compiles result for injection.
