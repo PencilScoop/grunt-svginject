@@ -23,7 +23,14 @@ module.exports = function (grunt) {
       }
     });
     var processName = options.processName || function (name) { return name; };
-    
+    var escaper = /\\|'|\r|\n|\t/g;
+    var escapes = {
+      "'": '"',
+      '\\': '\\',
+      '\r': ' ',
+      '\n': ' ',
+      '\t': ' '
+    };
     grunt.verbose.writeflags(options, 'Options');
 
     this.files.forEach(function (f) {
@@ -36,7 +43,9 @@ module.exports = function (grunt) {
       })
       .map(function (filepath) {
         var src = options.processContent(grunt.file.read(filepath));
-        var compiled = src;
+        var compiled = src.replace(escaper, function (match) {
+          return escapes[match];
+        });
 
         var filename = processName(filepath);
         var theFile = filename.match(/\/([^/]*)$/)[1];
