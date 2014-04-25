@@ -118,7 +118,9 @@ Note that it supports multiple classes so the below would also work :
 
 ### Usage Notes
 
-All SVGs must be minified (without line-breaks) and with double-quotation marks <code>" "</code>. This is because they are place inside single-quotation <code> ' ' </code> marks in the JavaScript output.
+The plugin will automatically minify all SVGs. This is handled when building the injection functions, so origional SVG files remain unchanged.
+
+It will also replace any single-quotation <code> ' ' </code> marks with double-quotation marks <code>" "</code>. This is because they are placed inside single quote marks in the JavaScript out. Again this handled when the injection function is built - origional SVG files will remain unchanged.
 
 The class names are named by the file-name with the prefix <code>svg-</code>. So a source-file named "icon1.svg" will be inserted into any class named <code>svg-icon1</code>.
 
